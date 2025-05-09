@@ -21,7 +21,8 @@
     "isolatedModules": false,
     "module": "commonjs",
     "moduleResolution": "Node",
-    "target": "ES2020"
+    "target": "ES2020",
+    "jsx": "preserve"
   },
   "include": ["src", "../my-app/src/lib"]
 }
