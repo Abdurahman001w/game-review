@@ -32,7 +32,8 @@ export const trpcRouter = trpc.router({
     return { review }
   }),
 })
-
+const tereza = 'fetch'
+console.info(tereza)
 export type TrpcRouter = typeof trpcRouter & {
   _config?: {
     $types: {
